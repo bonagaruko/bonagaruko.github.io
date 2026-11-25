@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>免费网站大全欧美大片 - 精选资源,高清片库 | 影库导航</title>
+<meta name="description" content="影库导航是免费的免费网站大全欧美大片聚合平台，精选高清欧美影视资源站点，覆盖电影、剧集、纪录片，持续更新社区精选与实用指南。">
+<style>
+  :root{
+    --bg:#070a12;
+    --bg-soft:#0d1220;
+    --panel:#111828;
+    --panel-2:#161f33;
+    --line:rgba(120,150,220,.16);
+    --text:#e8edf7;
+    --muted:#8f9dbb;
+    --gold:#ffca57;
+    --gold-soft:#ffb02e;
+    --cyan:#4fd6e0;
+    --violet:#8b7bff;
+    --radius:18px;
+    --max:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    background:
+      radial-gradient(1200px 600px at 82% -8%, rgba(139,123,255,.20), transparent 60%),
+      radial-gradient(900px 520px at 6% 4%, rgba(255,176,46,.13), transparent 62%),
+      radial-gradient(1000px 700px at 50% 108%, rgba(79,214,224,.10), transparent 65%),
+      var(--bg);
+    color:var(--text);
+    line-height:1.75;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  img,svg{display:block;max-width:100%}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  section{position:relative}
+
+  /* ===== 顶部导航 ===== */
+  header.site{
+    position:sticky;top:0;z-index:80;
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    background:rgba(7,10,18,.78);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    height:72px;gap:24px;
+  }
+  .brand{display:flex;align-items:center;gap:12px;min-width:0}
+  .brand .mark{
+    width:42px;height:42px;border-radius:12px;flex:none;
+    background:linear-gradient(140deg,var(--gold),var(--gold-soft) 45%,#ff8a3d);
+    display:grid;place-items:center;
+    box-shadow:0 8px 22px rgba(255,150,40,.28);
+  }
+  .brand .mark svg{width:22px;height:22px}
+  .brand .txt{min-width:0}
+  .brand .txt strong{
+    display:block;font-size:16.5px;letter-spacing:.5px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .brand .txt small{display:block;font-size:11.5px;color:var(--muted);letter-spacing:2.4px}
+  nav.links{display:flex;align-items:center;gap:6px}
+  nav.links a{
+    font-size:14px;color:#c3cde3;padding:9px 14px;border-radius:10px;
+    transition:.25s;white-space:nowrap;
+  }
+  nav.links a:hover{color:#fff;background:rgba(120,150,220,.12)}
+  .nav-cta{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:10px 20px;border-radius:12px;font-size:14px;font-weight:600;
+    background:linear-gradient(120deg,var(--gold),var(--gold-soft));
+    color:#191307;white-space:nowrap;
+    box-shadow:0 8px 24px rgba(255,176,46,.22);
+    transition:.25s;
+  }
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(255,176,46,.34)}
+  .burger{display:none;background:none;border:1px solid var(--line);border-radius:10px;padding:8px 10px;color:var(--text);cursor:pointer}
+  .burger span{display:block;width:18px;height:2px;background:var(--text);margin:4px 0;border-radius:2px}
+
+  /* ===== Hero ===== */
+  .hero{padding:74px 0 40px;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:56px;align-items:center}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;
+    font-size:12.5px;letter-spacing:2.2px;color:var(--gold);
+    border:1px solid rgba(255,202,87,.32);
+    background:rgba(255,202,87,.07);
+    padding:7px 16px;border-radius:999px;margin-bottom:26px;
+  }
+  .kicker i{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold)}
+  h1.hero-title{
+    font-size:clamp(38px,5.4vw,66px);
+    line-height:1.12;font-weight:800;letter-spacing:-1px;
+    margin-bottom:22px;
+  }
+  h1.hero-title em{
+    font-style:normal;
+    background:linear-gradient(100deg,var(--gold),#ffdf9e 40%,var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .hero-sub{color:#aab6cf;font-size:16.5px;max-width:560px;margin-bottom:34px}
+  .hero-sub b{color:#fff;font-weight:600}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:38px}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:14px 26px;border-radius:14px;font-size:15px;font-weight:600;
+    transition:.28s;cursor:pointer;border:1px solid transparent;
+  }
+  .btn-primary{
+    background:linear-gradient(120deg,var(--gold),var(--gold-soft));
+    color:#191307;box-shadow:0 12px 30px rgba(255,176,46,.26);
+  }
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 40px rgba(255,176,46,.36)}
+  .btn-ghost{border-color:rgba(150,175,235,.28);color:#d7e0f2;background:rgba(255,255,255,.03)}
+  .btn-ghost:hover{border-color:rgba(255,202,87,.6);color:#fff;background:rgba(255,202,87,.08)}
+  .hero-stats{display:flex;flex-wrap:wrap;gap:34px}
+  .hero-stats div strong{display:block;font-size:26px;font-weight:800;color:#fff;line-height:1.2}
+  .hero-stats div strong span{color:var(--gold);font-size:16px;margin-left:2px}
+  .hero-stats div small{font-size:12.5px;color:var(--muted);letter-spacing:.6px}
+
+  /* Hero 视觉 - 影视帧墙 */
+  .frame-wall{position:relative;height:430px}
+  .frame-wall .card{
+    position:absolute;border-radius:16px;overflow:hidden;
+    border:1px solid rgba(150,180,240,.18);
+    box-shadow:0 26px 60px rgba(0,0,0,.55);
+    background:var(--panel);
+  }
+  .frame-wall .card svg{width:100%;height:100%}
+  .fw1{width:64%;height:60%;left:0;top:0;z-index:3;animation:float1 7s ease-in-out infinite}
+  .fw2{width:52%;height:52%;right:0;top:14%;z-index:2;animation:float2 8.5s ease-in-out infinite}
+  .fw3{width:56%;height:46%;left:16%;bottom:0;z-index:4;animation:float3 9.5s ease-in-out infinite}
+  @keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(14px)}}
+  @keyframes float3{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+  .frame-wall .badge{
+    position:absolute;right:6%;bottom:16%;z-index:6;
+    background:rgba(17,24,40,.9);border:1px solid rgba(255,202,87,.3);
+    padding:12px 18px;border-radius:14px;display:flex;align-items:center;gap:12px;
+    box-shadow:0 14px 34px rgba(0,0,0,.5);backdrop-filter:blur(8px);
+  }
+  .frame-wall .badge .dot{width:9px;height:9px;border-radius:50%;background:#3ddc84;box-shadow:0 0 12px #3ddc84;animation:pulse 1.8s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .frame-wall .badge span{font-size:12.5px;color:#c8d3e8;letter-spacing:.6px}
+  .frame-wall .badge b{color:#fff;font-size:13.5px}
+
+  /* ===== 分类速览 ===== */
+  .strip{
+    margin:24px 0 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    background:linear-gradient(90deg,rgba(255,176,46,.05),rgba(139,123,255,.05));
+  }
+  .strip .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:center}
+  .strip .label{font-size:12.5px;color:var(--muted);letter-spacing:2px;margin-right:6px}
+  .chip{
+    font-size:13px;padding:6px 15px;border-radius:999px;color:#c6d1e8;
+    border:1px solid var(--line);background:rgba(255,255,255,.02);transition:.25s;
+  }
+  .chip:hover{color:#17110a;background:var(--gold);border-color:var(--gold);transform:translateY(-1px)}
+
+  /* ===== 通用区块头 ===== */
+  .sec-head{
+    display:flex;align-items:flex-end;justify-content:space-between;
+    gap:24px;margin-bottom:42px;flex-wrap:wrap;
+  }
+  .sec-head .t small{
+    display:block;font-size:12.5px;letter-spacing:3px;color:var(--gold);
+    margin-bottom:12px;font-weight:600;
+  }
+  .sec-head .t h2{font-size:clamp(26px,3.2vw,38px);font-weight:800;letter-spacing:-.5px;line-height:1.25}
+  .sec-head .t p{color:var(--muted);font-size:14.5px;margin-top:12px;max-width:560px}
+  .sec-head .more{font-size:13.5px;color:#c3cde3;display:inline-flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid transparent;transition:.25s}
+  .sec-head .more:hover{color:var(--gold);border-color:var(--gold);gap:12px}
+
+  /* ===== 站点卡片网格 ===== */
+  .sites{padding:84px 0 40px}
+  .grid-sites{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .site-card{
+    background:linear-gradient(170deg,var(--panel),var(--bg-soft));
+    border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px;transition:.3s;position:relative;overflow:hidden;
+  }
+  .site-card::after{
+    content:"";position:absolute;inset:0;border-radius:var(--radius);
+    background:radial-gradient(300px 160px at 100% 0%,rgba(255,202,87,.12),transparent 70%);
+    opacity:0;transition:.35s;pointer-events:none;
+  }
+  .site-card:hover{transform:translateY(-5px);border-color:rgba(255,202,87,.4);box-shadow:0 22px 48px rgba(0,0,0,.45)}
+  .site-card:hover::after{opacity:1}
+  .site-top{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+  .site-logo{
+    width:48px;height:48px;border-radius:13px;flex:none;display:grid;place-items:center;
+    font-weight:800;font-size:17px;color:#141009;
+    background:linear-gradient(140deg,var(--gold),#ff9d3f);
+  }
+  .site-logo.c{background:linear-gradient(140deg,var(--cyan),#3a9bd8);color:#04131a}
+  .site-logo.v{background:linear-gradient(140deg,var(--violet),#5d7bff);color:#0b0d1e}
+  .site-logo.g{background:linear-gradient(140deg,#63e6a8,#2fb67d);color:#04140c}
+  .site-logo.r{background:linear-gradient(140deg,#ff8f8f,#e2506a);color:#1b0710}
+  .site-name{font-size:16.5px;font-weight:700;letter-spacing:.3px}
+  .site-cat{font-size:12px;color:var(--muted);letter-spacing:1.2px;margin-top:2px}
+  .site-desc{font-size:13.8px;color:#9daac6;margin-bottom:18px;min-height:66px}
+  .tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+  .tags span{
+    font-size:11.5px;color:#a9b7d4;padding:3px 10px;border-radius:6px;
+    background:rgba(120,150,220,.1);border:1px solid rgba(120,150,220,.14);
+  }
+  .site-meta{
+    display:flex;align-items:center;justify-content:space-between;
+    padding-top:15px;border-top:1px dashed rgba(120,150,220,.18);
+    font-size:12.5px;color:var(--muted);
+  }
+  .site-meta .go{color:var(--gold);font-weight:600;display:inline-flex;align-items:center;gap:6px;transition:.25s}
+  .site-card:hover .site-meta .go{gap:10px}
+  .stars{color:var(--gold);letter-spacing:1px;font-size:12px}
+
+  /* ===== 精选专题 ===== */
+  .features{padding:80px 0 40px}
+  .grid-feat{display:grid;grid-template-columns:repeat(12,1fr);gap:22px}
+  .feat{
+    border-radius:20px;overflow:hidden;position:relative;
+    border:1px solid var(--line);background:var(--panel);
+    min-height:260px;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:26px;transition:.3s;
+  }
+  .feat:hover{transform:translateY(-4px);border-color:rgba(255,202,87,.35);box-shadow:0 22px 46px rgba(0,0,0,.45)}
+  .feat .art{position:absolute;inset:0;opacity:.9}
+  .feat .art svg{width:100%;height:100%}
+  .feat .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,10,18,.15),rgba(7,10,18,.9))}
+  .feat .inner{position:relative;z-index:2}
+  .feat .tagtop{font-size:11.5px;letter-spacing:2px;color:var(--gold);margin-bottom:10px;font-weight:600}
+  .feat h3{font-size:20px;font-weight:700;margin-bottom:8px;line-height:1.35}
+  .feat p{font-size:13.5px;color:#a2afc9;max-width:92%}
+  .f-a{grid-column:span 7}
+  .f-b{grid-column:span 5}
+  .f-c{grid-column:span 5;min-height:230px}
+  .f-d{grid-column:span 4;min-height:230px}
+  .f-e{grid-column:span 3;min-height:230px}
+
+  /* ===== 数据条 ===== */
+  .metrics{
+    padding:56px 0;margin:60px 0;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    background:linear-gradient(90deg,rgba(139,123,255,.06),rgba(255,176,46,.05));
+  }
+  .metrics .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center}
+  .metrics .m strong{display:block;font-size:clamp(28px,3.4vw,40px);font-weight:800;letter-spacing:-1px;
+    background:linear-gradient(120deg,#fff,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .metrics .m small{display:block;font-size:13px;color:var(--muted);letter-spacing:1.4px;margin-top:6px}
+
+  /* ===== 使用指南 ===== */
+  .guide{padding:60px 0 40px}
+  .guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .guide-list{display:flex;flex-direction:column;gap:18px}
+  .gstep{
+    display:flex;gap:18px;padding:22px;border-radius:16px;
+    background:linear-gradient(170deg,var(--panel),var(--bg-soft));
+    border:1px solid var(--line);transition:.28s;
+  }
+  .gstep:hover{border-color:rgba(255,202,87,.35);transform:translateX(4px)}
+  .gstep .num{
+    width:40px;height:40px;flex:none;border-radius:12px;display:grid;place-items:center;
+    font-weight:800;font-size:15px;color:#141009;
+    background:linear-gradient(140deg,var(--gold),#ff9d3f);
+  }
+  .gstep h4{font-size:16px;margin-bottom:5px;font-weight:700}
+  .gstep p{font-size:13.5px;color:#9daac6}
+  .guide-visual{
+    border-radius:22px;border:1px solid var(--line);overflow:hidden;
+    background:var(--panel);box-shadow:0 26px 60px rgba(0,0,0,.45);
+  }
+  .guide-visual svg{width:100%;height:auto;display:block}
+
+  /* ===== 社区动态 ===== */
+  .community{padding:70px 0 40px}
+  .grid-news{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .news{
+    background:linear-gradient(170deg,var(--panel),var(--bg-soft));
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.3s;
+  }
+  .news:hover{transform:translateY(-4px);border-color:rgba(79,214,224,.35);box-shadow:0 20px 44px rgba(0,0,0,.4)}
+  .news .thumb{height:150px;position:relative;overflow:hidden}
+  .news .thumb svg{width:100%;height:100%}
+  .news .body{padding:22px}
+  .news .date{font-size:12px;color:var(--muted);letter-spacing:1px;margin-bottom:10px;display:flex;gap:10px;align-items:center}
+  .news .date b{color:var(--cyan);font-weight:600}
+  .news h4{font-size:16px;font-weight:700;line-height:1.45;margin-bottom:10px}
+  .news p{font-size:13.3px;color:#98a5c0}
+  .news .read{margin-top:16px;font-size:12.5px;color:var(--gold);font-weight:600;display:inline-flex;gap:6px;transition:.25s}
+  .news:hover .read{gap:10px}
+
+  /* ===== FAQ ===== */
+  .faq{padding:80px 0 40px}
+  .faq-list{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+  .faq-item{
+    border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    background:linear-gradient(170deg,var(--panel),var(--bg-soft));transition:.28s;
+  }
+  .faq-item:hover{border-color:rgba(255,202,87,.3)}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:none;color:var(--text);
+    padding:20px 24px;font-size:15.5px;font-weight:600;cursor:pointer;
+    display:flex;align-items:center;justify-content:space-between;gap:18px;
+    font-family:inherit;
+  }
+  .faq-q .ic{
+    width:26px;height:26px;flex:none;border-radius:8px;display:grid;place-items:center;
+    border:1px solid rgba(255,202,87,.35);color:var(--gold);font-size:16px;
+    transition:.3s;line-height:1;
+  }
+  .faq-item.open .faq-q .ic{transform:rotate(45deg);background:rgba(255,202,87,.14)}
+  .faq-a{
+    max-height:0;overflow:hidden;transition:max-height .4s ease;
+    padding:0 24px;
+  }
+  .faq-a p{font-size:14px;color:#9daac6;padding-bottom:22px}
+
+  /* ===== 订阅横幅 ===== */
+  .cta-band{padding:70px 0}
+  .cta-inner{
+    position:relative;border-radius:26px;overflow:hidden;
+    padding:64px 48px;text-align:center;
+    border:1px solid rgba(255,202,87,.24);
+    background:
+      radial-gradient(600px 260px at 20% 0%,rgba(255,176,46,.20),transparent 70%),
+      radial-gradient(600px 300px at 85% 110%,rgba(139,123,255,.22),transparent 70%),
+      linear-gradient(160deg,#121a2c,#0b1020);
+  }
+  .cta-inner h2{font-size:clamp(24px,3.2vw,36px);font-weight:800;margin-bottom:14px;letter-spacing:-.5px}
+  .cta-inner p{color:#a7b4cf;font-size:15px;max-width:560px;margin:0 auto 30px}
+  .sub-form{display:flex;gap:10px;max-width:470px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .sub-form input{
+    flex:1;min-width:220px;padding:14px 18px;border-radius:12px;
+    border:1px solid var(--line);background:rgba(7,10,18,.6);color:var(--text);
+    font-size:14px;font-family:inherit;outline:none;transition:.25s;
+  }
+  .sub-form input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,202,87,.12)}
+  .sub-form input::placeholder{color:#66748f}
+  .form-note{font-size:12px;color:#6e7c98;margin-top:14px}
+
+  /* ===== 页脚 ===== */
+  footer.site{
+    border-top:1px solid var(--line);padding:64px 0 0;
+    background:linear-gradient(180deg,transparent,rgba(17,24,40,.55));
+  }
+  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:44px;padding-bottom:48px}
+  .foot-brand .brand{margin-bottom:18px}
+  .foot-brand p{font-size:13.5px;color:#8b99b6;max-width:330px;margin-bottom:20px}
+  .foot-social{display:flex;gap:10px}
+  .foot-social a{
+    width:36px;height:36px;border-radius:10px;border:1px solid var(--line);
+    display:grid;place-items:center;color:#a9b7d4;transition:.25s;
+  }
+  .foot-social a:hover{color:#17110a;background:var(--gold);border-color:var(--gold);transform:translateY(-2px)}
+  .foot-col h5{font-size:13px;letter-spacing:2px;color:#fff;margin-bottom:18px;font-weight:700}
+  .foot-col a{display:block;font-size:13.5px;color:#8b99b6;margin-bottom:11px;transition:.22s}
+  .foot-col a:hover{color:var(--gold);transform:translateX(3px)}
+  .foot-bottom{
+    border-top:1px solid var(--line);padding:22px 0;
+    display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+    font-size:12.5px;color:#6e7c98;
+  }
+  .foot-bottom .lks{display:flex;gap:20px;flex-wrap:wrap}
+  .foot-bottom .lks a:hover{color:var(--gold)}
+
+  /* ===== 回到顶部 ===== */
+  .to-top{
+    position:fixed;right:24px;bottom:24px;z-index:90;
+    width:46px;height:46px;border-radius:13px;border:1px solid rgba(255,202,87,.4);
+    background:rgba(17,24,40,.9);color:var(--gold);cursor:pointer;
+    display:grid;place-items:center;opacity:0;visibility:hidden;transition:.3s;
+    backdrop-filter:blur(8px);
+  }
+  .to-top.show{opacity:1;visibility:visible}
+  .to-top:hover{background:var(--gold);color:#17110a;transform:translateY(-3px)}
+
+  /* ===== 响应式 ===== */
+  @media(max-width:1024px){
+    .hero-grid{grid-template-columns:1fr;gap:48px}
+    .frame-wall{height:360px;max-width:560px}
+    .grid-sites{grid-template-columns:repeat(2,1fr)}
+    .f-a,.f-b{grid-column:span 12}
+    .f-c,.f-d{grid-column:span 6}
+    .f-e{grid-column:span 12}
+    .guide-grid{grid-template-columns:1fr;gap:36px}
+    .grid-news{grid-template-columns:repeat(2,1fr)}
+    .foot-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px}
+    .foot-brand{grid-column:span 3}
+    .metrics .wrap{grid-template-columns:repeat(2,1fr);gap:26px}
+  }
+  @media(max-width:760px){
+    nav.links{display:none}
+    .burger{display:block}
+    nav.links.open{
+      display:flex;flex-direction:column;position:absolute;top:72px;left:0;right:0;
+      background:rgba(9,13,23,.98);border-bottom:1px solid var(--line);padding:14px 24px 20px;gap:2px;
+    }
+    nav.links.open a{padding:12px 14px;width:100%}
+    .nav-cta{display:none}
+    .hero{padding:50px 0 20px}
+    .grid-sites{grid-template-columns:1fr}
+    .f-c,.f-d,.f-e{grid-column:span 12}
+    .grid-news{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr 1fr}
+    .foot-brand{grid-column:span 2}
+    .metrics .wrap{grid-template-columns:repeat(2,1fr)}
+    .cta-inner{padding:44px 24px}
+    .hero-stats{gap:24px}
+    .frame-wall{height:300px}
+    .sec-head{margin-bottom:30px}
+  }
+  @media(max-width:420px){
+    .foot-grid{grid-template-columns:1fr}
+    .foot-brand{grid-column:span 1}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="影库导航首页">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5h11a3 3 0 0 1 3 3v9.9a1 1 0 0 1-1.6.8l-3-2.2H4a1.5 1.5 0 0 1-1.5-1.5V7a1.5 1.5 0 0 1 1.5-1.5Z" stroke="#1a1206" stroke-width="1.7"/><path d="m21 7.5-3.2 3 3.2 3" stroke="#1a1206" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="txt">
+        <strong>影库导航</strong>
+        <small>FREEWEB · MOVIE GUIDE</small>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#sites">资源站点</a>
+      <a href="#features">精选专题</a>
+      <a href="#guide">使用指南</a>
+      <a href="#community">社区动态</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="nav-cta" href="#cta">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="m12 3 2.6 5.6L21 9.4l-4.5 4.3L17.6 20 12 16.9 6.4 20l1.1-6.3L3 9.4l6.4-.8L12 3Z" fill="#191307"/></svg>
+      立刻收藏
+    </a>
+    <button class="burger" id="burger" aria-label="展开菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker"><i></i>FREE WEB · 精选整理 · 持续更新</span>
+        <h1 class="hero-title">免费网站大全<em>欧美大片</em><br>一站导航，直达成片库</h1>
+        <p class="hero-sub">
+          我们把分散在网络上值得信赖的 <b>免费影视资源站点</b> 系统整理成册，聚焦欧美电影、热播剧集、高分纪录片与经典老片。
+          每一条收录都经过人工筛选与可访问性校验，配合清晰的分类标签、画质说明与使用提示，让找片这件事从「碰运气」变成「按图索骥」。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#sites">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M8 5.5v13l11-6.5-11-6.5Z" fill="#191307"/></svg>
+            浏览资源站点
+          </a>
+          <a class="btn btn-ghost" href="#guide">
+            了解使用方法
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>320<span>+</span></strong><small>精选站点收录</small></div>
+          <div><strong>48<span>类</span></strong><small>题材与类型标签</small></div>
+          <div><strong>7<span>×24</span></strong><small>可用性巡检</small></div>
+        </div>
+      </div>
+
+      <div class="frame-wall" aria-hidden="true">
+        <div class="card fw1">
+          <svg viewBox="0 0 320 200" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="fwg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#243155"/><stop offset="1" stop-color="#0e1526"/>
+              </linearGradient>
+            </defs>
+            <rect width="320" height="200" fill="url(#fwg1)"/>
+            <circle cx="252" cy="52" r="26" fill="#ffca57" opacity=".85"/>
+            <path d="M0 148 60 118l52 18 58-34 62 26 88-30v102H0Z" fill="#16203a"/>
+            <path d="M0 168 72 142l54 16 60-26 62 22 72-22v68H0Z" fill="#0f1729"/>
+            <circle cx="160" cy="100" r="22" fill="none" stroke="#ffca57" stroke-width="2.4" opacity=".9"/>
+            <path d="M153 91v18l16-9-16-9Z" fill="#ffca57"/>
+          </svg>
+        </div>
+        <div class="card fw2">
+          <svg viewBox="0 0 260 180" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="fwg2" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#2a1f45"/><stop offset="1" stop-color="#121a2c"/>
+              </linearGradient>
+            </defs>
+            <rect width="260" height="180" fill="url(#fwg2)"/>
+            <rect x="30" y="46" width="200" height="12" rx="6" fill="#8b7bff" opacity=".55"/>
+            <rect x="30" y="72" width="150" height="10" rx="5" fill="#4fd6e0" opacity=".5"/>
+            <rect x="30" y="98" width="176" height="10" rx="5" fill="#ffca57" opacity=".5"/>
+            <rect x="30" y="124" width="110" height="10" rx="5" fill="#ffffff" opacity=".22"/>
+            <circle cx="214" cy="30" r="9" fill="#4fd6e0"/>
+          </svg>
+        </div>
+        <div class="card fw3">
+          <svg viewBox="0 0 300 150" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="fwg3" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3a2410"/><stop offset="1" stop-color="#131a2b"/>
+              </linearGradient>
+            </defs>
+            <rect width="300" height="150" fill="url(#fwg3)"/>
+            <path d="M0 100c40-30 70 6 108-14s58-30 96-10 60 8 96-8v82H0Z" fill="#1b2440"/>
+            <path d="M0 118c46-22 70 4 110-12s60-22 94-4 56 8 96-6v54H0Z" fill="#111a2e"/>
+            <rect x="128" y="42" width="44" height="30" rx="5" fill="none" stroke="#ffb02e" stroke-width="2"/>
+            <path d="m128 42 10-10h14l8 10" stroke="#ffb02e" stroke-width="2" fill="none"/>
+            <circle cx="150" cy="57" r="6" fill="none" stroke="#ffb02e" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="badge">
+          <span class="dot"></span>
+          <span>今日巡检 <b>312</b> 个站点 · 正常</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类速览 -->
+  <div class="strip">
+    <div class="wrap">
+      <span class="label">热门标签</span>
+      <a class="chip" href="#sites">欧美电影</a>
+      <a class="chip" href="#sites">高分剧集</a>
+      <a class="chip" href="#sites">免费观看</a>
+      <a class="chip" href="#sites">4K 蓝光</a>
+      <a class="chip" href="#sites">纪录片</a>
+      <a class="chip" href="#sites">经典老片</a>
+      <a class="chip" href="#sites">科幻宇宙</a>
+      <a class="chip" href="#sites">悬疑犯罪</a>
+      <a class="chip" href="#sites">动画长片</a>
+    </div>
+  </div>
+
+  <!-- 资源站点 -->
+  <section class="sites" id="sites">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="t">
+          <small>EDITOR'S PICKS</small>
+          <h2>本周精选 · 免费资源站点</h2>
+          <p>按公开可访问性与内容完整度综合排序，覆盖电影资料、在线片库、字幕与影评社区等不同使用场景。所有条目均为免费网站大全欧美大片导航中的常驻推荐。</p>
+        </div>
+        <a class="more" href="#features">查看全部站点
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="grid-sites">
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo">影</div>
+            <div>
+              <div class="site-name">光影资料馆</div>
+              <div class="site-cat">MOVIE ARCHIVE</div>
+            </div>
+          </div>
+          <p class="site-desc">以欧美电影为主的资料型索引站，收录影片简介、演职员表、上映时间与多版本画质说明，适合在观影前做功课与比对版本。</p>
+          <div class="tags"><span>资料索引</span><span>欧美电影</span><span>版本对比</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★★</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo c">片</div>
+            <div>
+              <div class="site-name">片库全景</div>
+              <div class="site-cat">ONLINE LIBRARY</div>
+            </div>
+          </div>
+          <p class="site-desc">聚合式在线片库，界面清爽、分类细致，支持按年份、地区、类型与评分筛选。欧美大片占比高，新片上线节奏稳定。</p>
+          <div class="tags"><span>在线片库</span><span>多维筛选</span><span>新片速递</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★★</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo v">字</div>
+            <div>
+              <div class="site-name">字幕工作间</div>
+              <div class="site-cat">SUBTITLE HUB</div>
+            </div>
+          </div>
+          <p class="site-desc">多语言字幕下载与校对社区，欧美影视中文时间轴覆盖率高，提供简繁双语与听译版本，适合本地片源搭配使用。</p>
+          <div class="tags"><span>字幕下载</span><span>中英双语</span><span>时间轴</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★☆</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo g">评</div>
+            <div>
+              <div class="site-name">银幕评分榜</div>
+              <div class="site-cat">RATING CHART</div>
+            </div>
+          </div>
+          <p class="site-desc">影迷共建的评分与口碑榜单，按年代、类型、导演维度生成榜单，是筛选高分欧美片单与冷门佳作的快捷入口。</p>
+          <div class="tags"><span>评分榜单</span><span>影迷口碑</span><span>片单推荐</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★☆</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo r">剧</div>
+            <div>
+              <div class="site-name">剧集观测站</div>
+              <div class="site-cat">SERIES TRACKER</div>
+            </div>
+          </div>
+          <p class="site-desc">专注欧美剧集的更新追踪工具，提供季集时间表、续订状态与平台归属信息，追剧党避免漏集与错季的实用站点。</p>
+          <div class="tags"><span>剧集追踪</span><span>更新时间表</span><span>续订动态</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★★</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="site-card">
+          <div class="site-top">
+            <div class="site-logo">纪</div>
+            <div>
+              <div class="site-name">纪实放映厅</div>
+              <div class="site-cat">DOCUMENTARY</div>
+            </div>
+          </div>
+          <p class="site-desc">纪录片爱好者的资源集散地，涵盖自然、历史、科技与人文题材，欧美制作机构作品分类完整，适合深度观看。</p>
+          <div class="tags"><span>纪录片</span><span>人文自然</span><span>高清资源</span></div>
+          <div class="site-meta">
+            <span class="stars">★★★★☆</span>
+            <span class="go">进入站点
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 精选专题 -->
+  <section class="features" id="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="t">
+          <small>CURATED TOPICS</small>
+          <h2>精选专题 · 按主题找片更快</h2>
+          <p>把庞大的欧美片库拆解成若干主题入口，无论是周末合家欢、深夜悬疑，还是重看经典，都能在这里快速落座。</p>
+        </div>
+      </div>
+
+      <div class="grid-feat">
+        <article class="feat f-a">
+          <div class="art">
+            <svg viewBox="0 0 600 280" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="fa1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#3a2a0c"/><stop offset="1" stop-color="#101828"/>
+                </linearGradient>
+              </defs>
+              <rect width="600" height="280" fill="url(#fa1)"/>
+              <circle cx="470" cy="70" r="80" fill="#ffca57" opacity=".22"/>
+              <path d="M0 210c80-40 130 10 200-16s120-44 190-14 130 20 210-10v110H0Z" fill="#1a2138"/>
+              <path d="M0 240c90-30 140 8 210-14s130-30 190-6 130 12 200-8v68H0Z" fill="#101828"/>
+              <g opacity=".9">
+                <rect x="60" y="150" width="72" height="46" rx="6" fill="#ffb02e" opacity=".35"/>
+                <rect x="150" y="136" width="72" height="60" rx="6" fill="#ffca57" opacity=".25"/>
+                <rect x="240" y="152" width="72" height="44" rx="6" fill="#ffffff" opacity=".12"/>
+              </g>
+            </svg>
+          </div>
+          <div class="veil"></div>
+          <div class="inner">
+            <div class="tagtop">TOPIC 01 · 高分片单</div>
+            <h3>年度高分欧美大片合集</h3>
+            <p>从电影节口碑到观众评分，梳理近一年值得补看的欧美电影清单，附类型标签与观看建议。</p>
+          </div>
+        </article>
+
+        <article class="feat f-b">
+          <div class="art">
+            <svg viewBox="0 0 420 280" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="fb1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#241b4a"/><stop offset="1" stop-color="#0e1526"/>
+                </linearGradient>
+              </defs>
+              <rect width="420" height="280" fill="url(#fb1)"/>
+              <circle cx="330" cy="60" r="46" fill="#8b7bff" opacity=".35"/>
+              <path d="M0 200c60-24 100 8 150-8s90-26 140-8 80 14 130-4v100H0Z" fill="#151d33"/>
+              <circle cx="120" cy="130" r="40" fill="none" stroke="#4fd6e0" stroke-width="2.5" opacity=".8"/>
+              <path d="m110 112 30 18-30 18v-36Z" fill="#4fd6e0"/>
+            </svg>
+          </div>
+          <div class="veil"></div>
+          <div class="inner">
+            <div class="tagtop">TOPIC 02 · 剧集</div>
+            <h3>热播欧美剧集追踪</h3>
+            <p>新季开播时间、平台归属与口碑走势，一页掌握正在更新的热门剧。</p>
+          </div>
+        </article>
+
+        <article class="feat f-c">
+          <div class="art">
+            <svg viewBox="0 0 420 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="420" height="240" fill="#121a2c"/>
+              <path d="M0 176c50-26 90 0 140-16s86-28 130-6 90 16 150-4v90H0Z" fill="#1b2440"/>
+              <rect x="56" y="52" width="140" height="76" rx="8" fill="none" stroke="#ffca57" stroke-width="2" opacity=".8"/>
+              <rect x="68" y="64" width="60" height="8" rx="4" fill="#ffca57" opacity=".6"/>
+              <rect x="68" y="82" width="100" height="6" rx="3" fill="#ffffff" opacity=".2"/>
+              <rect x="228" y="72" width="120" height="56" rx="8" fill="none" stroke="#4fd6e0" stroke-width="2" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="veil"></div>
+          <div class="inner">
+            <div class="tagtop">TOPIC 03 · 合集</div>
+            <h3>系列电影一键通看</h3>
+            <p>超级英雄、科幻史诗与经典三部曲，按观看顺序整理的系列片导航。</p>
+          </div>
+        </article>
+
+        <article class="feat f-d">
+          <div class="art">
+            <svg viewBox="0 0 340 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="340" height="240" fill="#101828"/>
+              <circle cx="170" cy="100" r="58" fill="none" stroke="#ff8f8f" stroke-width="2.5" opacity=".7"/>
+              <path d="M170 42v24M170 134v24M112 100h24M204 100h24" stroke="#ff8f8f" stroke-width="2" opacity=".7"/>
+              <path d="M0 190c60-24 100 6 150-8s110-20 150-2 60 10 40 6" stroke="#1b2440" stroke-width="0"/>
+              <path d="M0 196c60-24 100 6 150-8s90-18 130-2" fill="none" stroke="#ffffff" stroke-width="2" opacity=".14"/>
+            </svg>
+          </div>
+          <div class="veil"></div>
+          <div class="inner">
+            <div class="tagtop">TOPIC 04 · 悬疑</div>
+            <h3>悬疑犯罪深夜档</h3>
+            <p>反转、推理、黑色电影，适合夜晚安静观看的欧美悬疑精选。</p>
+          </div>
+        </article>
+
+        <article class="feat f-e">
+          <div class="art">
+            <svg viewBox="0 0 300 240" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="240" fill="#111a2e"/>
+              <path d="M40 160 96 92l52 44 44-30 68 54" fill="none" stroke="#63e6a8" stroke-width="3" stroke-linejoin="round" opacity=".8"/>
+              <circle cx="96" cy="92" r="6" fill="#63e6a8"/>
+              <circle cx="192" cy="106" r="6" fill="#ffca57"/>
+              <path d="M0 200h300v40H0Z" fill="#0d1524"/>
+            </svg>
+          </div>
+          <div class="veil"></div>
+          <div class="inner">
+            <div class="tagtop">TOPIC 05 · 经典</div>
+            <h3>值得重看的<br>经典老片</h3>
+            <p>跨越年代的口碑常青树。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据条 -->
+  <div class="metrics">
+    <div class="wrap">
+      <div class="m"><strong>1,860+</strong><small>累计收录条目</small></div>
+      <div class="m"><strong>96%</strong><small>站点可访问率</small></div>
+      <div class="m"><strong>48</strong><small>细分题材标签</small></div>
+      <div class="m"><strong>12h</strong><small>平均更新间隔</small></div>
+    </div>
+  </div>
+
+  <!-- 使用指南 -->
+  <section class="guide" id="guide">
+    <div class="wrap guide-grid">
+      <div>
+        <div class="sec-head" style="margin-bottom:28px">
+          <div class="t">
+            <small>HOW TO USE</small>
+            <h2>三步用好这份<br>免费网站大全</h2>
+            <p>导航的价值在于效率。按照下面的顺序使用，你可以在几分钟内从「想看点什么」推进到「已经找到入口」。</p>
+          </div>
+        </div>
+        <div class="guide-list">
+          <div class="gstep">
+            <div class="num">01</div>
+            <div>
+              <h4>先用标签锁定范围</h4>
+              <p>根据题材、年份、评分或地区快速缩小范围，避免在庞大片库中盲目翻找。</p>
+            </div>
+          </div>
+          <div class="gstep">
+            <div class="num">02</div>
+            <div>
+              <h4>对照站点说明选择入口</h4>
+              <p>每个收录站点都标注了内容侧重、画质信息与访问状态，按需进入更省时间。</p>
+            </div>
+          </div>
+          <div class="gstep">
+            <div class="num">03</div>
+            <div>
+              <h4>配合字幕与资料站使用</h4>
+              <p>本地片源可搭配字幕站，观影前用资料站确认版本与演职员，体验更完整。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 460">
+          <defs>
+            <linearGradient id="gv1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#101828"/><stop offset="1" stop-color="#182136"/>
+            </linearGradient>
+            <linearGradient id="gv2" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#ffca57"/><stop offset="1" stop-color="#ff9d3f"/>
+            </linearGradient>
+          </defs>
+          <rect width="520" height="460" fill="url(#gv1)"/>
+          <circle cx="440" cy="60" r="90" fill="#8b7bff" opacity=".13"/>
+          <circle cx="70" cy="410" r="110" fill="#4fd6e0" opacity=".10"/>
+          <rect x="46" y="52" width="428" height="52" rx="12" fill="#141d31" stroke="#26324e"/>
+          <circle cx="76" cy="78" r="9" fill="#ffca57"/>
+          <rect x="96" y="70" width="130" height="8" rx="4" fill="#3b4869"/>
+          <rect x="96" y="84" width="80" height="6" rx="3" fill="#2b3653"/>
+          <rect x="360" y="66" width="92" height="24" rx="7" fill="url(#gv2)"/>
+          <rect x="46" y="126" width="200" height="140" rx="14" fill="#141d31" stroke="#26324e"/>
+          <rect x="64" y="146" width="164" height="72" rx="9" fill="#1d283f"/>
+          <circle cx="146" cy="182" r="17" fill="none" stroke="#ffca57" stroke-width="2"/>
+          <path d="m140 174 13 8-13 8v-16Z" fill="#ffca57"/>
+          <rect x="64" y="230" width="120" height="7" rx="3.5" fill="#33405f"/>
+          <rect x="64" y="244" width="80" height="6" rx="3" fill="#27324c"/>
+          <rect x="262" y="126" width="212" height="66" rx="14" fill="#141d31" stroke="#26324e"/>
+          <rect x="280" y="144" width="70" height="8" rx="4" fill="#4fd6e0" opacity=".7"/>
+          <rect x="280" y="162" width="150" height="6" rx="3" fill="#2b3653"/>
+          <rect x="262" y="204" width="212" height="62" rx="14" fill="#141d31" stroke="#26324e"/>
+          <rect x="280" y="222" width="90" height="8" rx="4" fill="#ffca57" opacity=".7"/>
+          <rect x="280" y="240" width="130" height="6" rx="3" fill="#2b3653"/>
+          <rect x="46" y="290" width="428" height="120" rx="16" fill="#141d31" stroke="#26324e"/>
+          <rect x="68" y="314" width="56" height="56" rx="12" fill="url(#gv2)"/>
+          <path d="m88 330 16 12-16 12v-24Z" fill="#1a1206"/>
+          <rect x="142" y="318" width="180" height="9" rx="4.5" fill="#3b4869"/>
+          <rect x="142" y="338" width="240" height="7" rx="3.5" fill="#2b3653"/>
+          <rect x="142" y="354" width="196" height="7" rx="3.5" fill="#2b3653"/>
+          <rect x="68" y="384" width="90" height="8" rx="4" fill="#4fd6e0" opacity=".6"/>
+          <rect x="170" y="384" width="64" height="8" rx="4" fill="#ffca57" opacity=".6"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 社区动态 -->
+  <section class="community" id="community">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="t">
+          <small>COMMUNITY</small>
+          <h2>社区动态 · 影迷正在讨论</h2>
+          <p>导航不只是链接列表，也是一群人的观影日常。这里记录站点更新、片单分享与实用技巧。</p>
+        </div>
+        <a class="more" href="#cta">加入讨论
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="grid-news">
+        <article class="news">
+          <div class="thumb">
+            <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="150" fill="#15203a"/>
+              <circle cx="320" cy="40" r="60" fill="#ffca57" opacity=".18"/>
+              <path d="M0 110c60-24 100 6 150-10s100-26 150-6 70 12 100 2v54H0Z" fill="#1d2942"/>
+              <rect x="40" y="46" width="70" height="40" rx="6" fill="#25314e"/>
+              <rect x="122" y="46" width="70" height="40" rx="6" fill="#2b3757"/>
+            </svg>
+          </div>
+          <div class="body">
+            <div class="date"><b>站点更新</b>· 2 天前</div>
+            <h4>新增 14 个欧美影视资源站点，逐一标注访问状态</h4>
+            <p>本周巡检中补充了一批以高清画质见长的站点，同时对旧条目做了可用性复核与分类修正。</p>
+            <span class="read">阅读全文
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="news">
+          <div class="thumb">
+            <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="150" fill="#1a1630"/>
+              <circle cx="90" cy="44" r="54" fill="#8b7bff" opacity=".2"/>
+              <path d="M0 112c50-20 90 4 140-8s100-22 150-4 70 10 110 0v50H0Z" fill="#221d3d"/>
+              <circle cx="200" cy="70" r="26" fill="none" stroke="#8b7bff" stroke-width="2" opacity=".8"/>
+              <path d="m192 60 20 10-20 10V60Z" fill="#8b7bff"/>
+            </svg>
+          </div>
+          <div class="body">
+            <div class="date"><b>片单分享</b>· 4 天前</div>
+            <h4>影迷自制：20 部适合入门的欧美悬疑电影</h4>
+            <p>从经典黑色电影到现代高概念悬疑，社区成员整理了一份循序渐进的上手片单，按烧脑程度分级。</p>
+            <span class="read">阅读全文
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="news">
+          <div class="thumb">
+            <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="150" fill="#0f1f24"/>
+              <circle cx="330" cy="46" r="56" fill="#4fd6e0" opacity=".18"/>
+              <path d="M0 108c50-18 90 6 140-6s100-20 150-2 70 8 110 0v50H0Z" fill="#16303a"/>
+              <rect x="44" y="44" width="110" height="12" rx="6" fill="#4fd6e0" opacity=".5"/>
+              <rect x="44" y="66" width="80" height="9" rx="4.5" fill="#ffffff" opacity=".18"/>
+            </svg>
+          </div>
+          <div class="body">
+            <div class="date"><b>实用技巧</b>· 6 天前</div>
+            <h4>如何判断一个免费资源站是否值得长期使用</h4>
+            <p>从更新频率、页面整洁度、分类逻辑与隐私提示四个维度，给出可操作的判断标准。</p>
+            <span class="read">阅读全文
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="sec-head" style="justify-content:center;text-align:center">
+        <div class="t">
+          <small>FAQ</small>
+          <h2>常见问题</h2>
+          <p style="margin-left:auto;margin-right:auto">关于免费网站大全欧美大片导航，你可能会关心的几个问题。</p>
+        </div>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" type="button">这份导航和普通搜索结果有什么区别？<span class="ic">+</span></button>
+          <div class="faq-a"><p>导航对站点做了人工筛选与分类整理，标注内容侧重、画质信息与访问状态，并按主题、类型、年代建立索引。相比直接搜索，它更强调可读性与可维护性，减少无效尝试。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">站点列表多久更新一次？<span class="ic">+</span></button>
+          <div class="faq-a"><p>收录条目平均每 12 小时做一次可用性探测，人工复核以周为周期进行。失效或长期无法访问的站点会被移入观察区，确认后从主列表下架。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">为什么有些条目没有直接链接？<span class="ic">+</span></button>
+          <div class="faq-a"><p>部分站点会频繁更换域名，或需要经过验证页面。导航会给出站点名称、特征与检索关键词，便于你通过公开搜索引擎找到当前有效入口。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">可以推荐自己的站点吗？<span class="ic">+</span></button>
+          <div class="faq-a"><p>可以。我们欢迎内容清晰、分类规范、无恶意跳转的站点投稿。提交后会在下一轮人工审核中评估内容质量与稳定性，通过后纳入对应分类。</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">使用这些站点需要注意什么？<span class="ic">+</span></button>
+          <div class="faq-a"><p>请遵守所在地区法律法规，尊重版权，优先选择正规授权渠道观看。对于任何要求安装不明插件、填写敏感信息的页面，应立即关闭并更换来源。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band" id="cta">
+    <div class="wrap">
+      <div class="cta-inner">
+        <h2>每周一封精选片单邮件</h2>
+        <p>把新收录的站点、值得一看的欧美大片和社区高赞片单，压缩成一封不超过五分钟读完的邮件。</p>
+        <form class="sub-form" onsubmit="return false;">
+          <input type="email" placeholder="输入你的常用邮箱" aria-label="邮箱地址">
+          <button class="btn btn-primary" type="submit">免费订阅</button>
+        </form>
+        <p class="form-note">我们只发送导航更新与片单推荐，随时可退订。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5h11a3 3 0 0 1 3 3v9.9a1 1 0 0 1-1.6.8l-3-2.2H4a1.5 1.5 0 0 1-1.5-1.5V7a1.5 1.5 0 0 1 1.5-1.5Z" stroke="#1a1206" stroke-width="1.7"/><path d="m21 7.5-3.2 3 3.2 3" stroke="#1a1206" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="txt">
+            <strong>影库导航</strong>
+            <small>FREEWEB · MOVIE GUIDE</small>
+          </span>
+        </a>
+        <p>专注免费网站大全欧美大片的整理与导航，用清晰的分类与持续巡检，帮助影迷更快找到想看的片。</p>
+        <div class="foot-social">
+          <a href="#top" aria-label="微博">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="10" cy="14" r="6" stroke="currentColor" stroke-width="1.7"/><path d="M16 5a5 5 0 0 1 4 4M15 8a2.4 2.4 0 0 1 2 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#top" aria-label="邮件">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5.5" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#top" aria-label="社群">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="9" r="3.2" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="10.5" r="2.4" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 19c.6-3 3-4.5 5.5-4.5s4.9 1.5 5.5 4.5M15.5 15.5c2 .2 3.7 1.4 4.3 3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>导航</h5>
+        <a href="#sites">资源站点</a>
+        <a href="#features">精选专题</a>
+        <a href="#guide">使用指南</a>
+        <a href="#community">社区动态</a>
+      </div>
+      <div class="foot-col">
+        <h5>分类</h5>
+        <a href="#sites">欧美电影</a>
+        <a href="#sites">高分剧集</a>
+        <a href="#sites">纪录片</a>
+        <a href="#sites">经典老片</a>
+      </div>
+      <div class="foot-col">
+        <h5>关于</h5>
+        <a href="#faq">常见问题</a>
+        <a href="#cta">订阅更新</a>
+        <a href="#top">收录说明</a>
+        <a href="#top">意见反馈</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2025 影库导航 · 本页仅提供公开信息整理，内容版权归原权利人所有。</span>
+      <div class="lks">
+        <a href="#top">使用条款</a>
+        <a href="#top">隐私说明</a>
+        <a href="#top">联系邮箱</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5m-6 6 6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+  (function () {
+    // 移动端菜单
+    var burger = document.getElementById('burger');
+    var navLinks = document.getElementById('navLinks');
+    if (burger && navLinks) {
+      burger.addEventListener('click', function () {
+        navLinks.classList.toggle('open');
+      });
+      navLinks.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          navLinks.classList.remove('open');
+        });
+      });
+    }
+
+    // FAQ 手风琴
+    var items = document.querySelectorAll('.faq-item');
+    items.forEach(function (item) {
+      var q = item.querySelector('.faq-q');
+      var a = item.querySelector('.faq-a');
+      q.addEventListener('click', function () {
+        var isOpen = item.classList.contains('open');
+        items.forEach(function (other) {
+          other.classList.remove('open');
+          var oa = other.querySelector('.faq-a');
+          if (oa) oa.style.maxHeight = '0px';
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          a.style.maxHeight = a.scrollHeight + 'px';
+        }
+      });
+    });
+
+    // 回到顶部
+    var toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 520) {
+        toTop.classList.add('show');
+      } else {
+        toTop.classList.remove('show');
+      }
+    }, { passive: true });
+    toTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // 滚动渐入
+    var revealTargets = document.querySelectorAll('.site-card, .feat, .gstep, .news, .faq-item, .m');
+    revealTargets.forEach(function (el) {
+      el.style.opacity = '0';
+      el.style.transform = (el.classList.contains('gstep') ? 'translateX(-14px)' : 'translateY(18px)');
+      el.style.transition = 'opacity .6s ease, transform .6s ease';
+    });
+
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            var idx = Array.prototype.indexOf.call(revealTargets, el);
+            var delay = (idx % 3) * 90;
+            setTimeout(function () {
+              el.style.opacity = '1';
+              el.style.transform = 'translate(0,0)';
+            }, delay);
+            io.unobserve(el);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      revealTargets.forEach(function (el) { io.observe(el); });
+    } else {
+      revealTargets.forEach(function (el) {
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+      });
+    }
+
+    // 订阅表单模拟反馈
+    var subForm = document.querySelector('.sub-form');
+    if (subForm) {
+      subForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var input = subForm.querySelector('input');
+        var btn = subForm.querySelector('button');
+        if (!input || !input.value.trim()) {
+          input && input.focus();
+          return;
+        }
+        var original = btn.textContent;
+        btn.textContent = '已订阅 ✓';
+        btn.disabled = true;
+        input.value = '';
+        setTimeout(function () {
+          btn.textContent = original;
+          btn.disabled = false;
+        }, 2600);
+      });
+    }
+
+    // 平滑锚点（补充旧浏览器）
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var id = a.getAttribute('href');
+        if (id.length > 1) {
+          var target = document.querySelector(id);
+          if (target) {
+            e.preventDefault();
+            var top = target.getBoundingClientRect().top + window.scrollY - 76;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  })();
+</script>
+</body>
+            </html>
